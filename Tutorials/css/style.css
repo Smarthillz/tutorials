@@ -1,0 +1,139 @@
+body{
+	margin: 0 auto;
+	background-color: gainsboro;
+}
+.container{
+	width: 1000px;
+	height: auto;
+	background-color:white;
+	margin: auto;
+}
+.header{
+	font-family: sans-serif;
+	font-size: 36px;
+	color: white;
+	background-color: teal;
+	text-align: center;
+	width: 810px;
+	float: right;
+	height: 100px;
+	padding: 2px 2px;
+	margin: auto;
+}
+.header h1{
+	margin: 0px;
+	padding: 4px 4px;
+}
+.logo{
+	width: 180px;
+	height:110px;
+	float: left;
+	background-color: teal;
+}
+.search{
+	float: right;
+	margin: 3px 3px;
+}
+.clearfix{
+	clear: both;
+}
+
+.nav{
+	background-color: teal;
+}
+.nav ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: inline-block;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-family: sans-serif;
+
+}
+.images img{
+	width: 100%;
+	height:auto;
+}
+
+.article{
+	width:700px;
+	height: auto;
+	background-color: white;
+	float: left;
+	margin: 25px;
+}
+.article h2 {
+	font-family: sans-serif;
+	margin: 0px;
+}
+.article h2 p{
+	font-size: small;
+	font-family: sans-serif;
+}
+.sidebar{
+	float: left;
+	background-color: royalblue;
+	margin: 15px;
+	padding: 5px 5px;
+	width: 200px;
+	height: 300px;
+}
+.sidebar h3{
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+.sidebar ul li a{
+	color: white;
+	display: block;
+	font-family: sans-serif;
+	font-style: italic;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+.clearfix{
+	clear: both;}
+.mainfooter{
+	background-color: black;
+	color: white;
+}
+.footermenu{
+	margin: 0px;
+	width: 350px;
+}
+.footermenu ul li a{
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	margin-bottom: 20px;
+	font-style: italic;
+	width: 350px;
+
+}
+.contacts{
+	margin: auto;
+	display: inline-block;
+	float: left;
+}
+.copy{
+	background-color: white
+	margin: 25px;
+}
+.copy p{
+	text-align: center;
+	font-family: sans-serif;
+	margin: 20px;
+}
+@media(max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+}
